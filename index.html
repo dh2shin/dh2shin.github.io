@@ -1,1 +1,120 @@
-Hellow World
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <meta charset="UTF-8">
+    <script type="text/javascript">
+            var sec = 0;
+            function pad ( val ) { return val > 9 ? val : "0" + val; }
+            var func;
+            function myStopFunction(i) {
+                clearInterval(func);
+            }
+            function timerstart(i){
+                myStopFunction()
+                func = setInterval( function(){
+                $("#seconds"+i).html(pad(++sec%60));
+                $("#minutes"+i).html(pad(parseInt(sec/60,10)));
+                }, 1000);
+            }
+
+
+            function myClearFunction(i){
+                myStopFunction(i);
+                $("#seconds"+i).html(pad(00));
+                $("#minutes"+i).html(pad(00));
+                sec = 0;
+
+            }
+    </script>
+    <div class="card-columns">
+    {% for i in range(saved|length) %}
+        <div class="card" style="width: 18rem;">
+            <img src="{{ saved[i]['url'] }}" class="card-img-top" alt="{{ saved[i]['recipe_name'] }}">
+            <div class="card-body">
+                <h5 class="card-title">{{ saved[i]['recipe_name'] }}</h5>
+                <p class="card-text">{{ saved[i]['recipe_description'] }}</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Brew Time {{ saved[i]['brew_time'] }}</li>
+            </ul>
+                <div class="card-body">
+                    <!-- Button trigger modal -->
+                    <button type="button" id="{{ "bt" ~saved[i]['recipe_name'] }}" class="btn btn-primary" data-toggle="modal" data-target="{{ "#modal" ~saved[i]['recipe_id'] }}">
+                        Start Recipe
+                    </button>
+                    <button type="button" id="viewingredients" class="btn btn-primary" data-toggle="modal" data-target="{{ "#ingredients" ~saved[i]['recipe_id'] }}" style="margin: 5px;">
+                        View Ingredients
+                    </button>
+                </div>
+        </div>
+
+        <div class="modal fade" id="{{ "ingredients" ~saved[i]['recipe_id'] }}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">View Ingredients</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>{{ saved[i]['ingredients'] }}</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="{{ "modal" ~saved[i]['recipe_id'] }}" tabindex="-1" role="dialog" aria-labelledby="{{ saved[i]['recipe_name'] }}" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">{{ saved[i]['recipe_name'] }}</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="myClearFunction({{i}});">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="{{"recipeSteps" ~saved[i]['recipe_name'] ~i }}">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="list-group" id="{{ "list-tab-" ~i}}" role="tablist">
+                                        {% if not newsteps[i]|length == 0 %}
+                                        <a class="list-group-item list-group-item-action active" id="{{ "list" ~saved[i]['recipe_name'] ~newsteps[i][0]["step_number"] ~"-list" }}" data-toggle="list" href="{{ "#step" ~saved[i]['recipe_id'] ~newsteps[i][0]["step_number"] }}" role="tab">Step {{ newsteps[i][0]["step_number"] }}</a>
+                                        {% endif %}
+                                        {% for j in range(newsteps[i]|length - 1) %}
+                                        <a class="list-group-item list-group-item-action" id="{{ "list" ~saved[i]['recipe_name'] ~newsteps[i][j+1]["step_number"] ~"-list" }}" data-toggle="list" href="{{ "#step" ~saved[i]['recipe_id'] ~newsteps[i][j+1]["step_number"] }}" role="tab">Step {{ newsteps[i][j+1]["step_number"] }}</a>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="tab-content" id="{{ "nav-tabContent" ~i}}">
+                                        {% if not newsteps[i]|length == 0 %}
+                                        <div class="tab-pane fade show active" id="{{ "step" ~saved[i]['recipe_id'] ~newsteps[i][0]["step_number"] }}" role="tabpanel">{{ newsteps[i][0]["step_description"] }}</div>
+                                        {% endif %}
+                                        {% for k in range(newsteps[i]|length - 1) %}
+                                        <div class="tab-pane fade" id="{{ "step" ~saved[i]['recipe_id'] ~newsteps[i][k+1]["step_number"] }}" role="tabpanel">{{ newsteps[i][k+1]["step_description"] }}</div>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <span id="{{ "minutes" ~i }}">00</span>:<span id="{{ "seconds" ~i }}">00</span>
+                        <button type="button" id="resume" class="btn btn-success" onclick="timerstart({{i}})">Resume</button>
+                        <button type="button" id="stop" class="btn btn-danger" onclick="myStopFunction({{i}})">Stop</button>
+                        <button type="button" id="reset" class="btn btn-light" onclick="myClearFunction({{i}});">Clear</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+{% endblock %}
