@@ -10005,10 +10005,16 @@ h3 {
   font-size: 2.25rem;
   line-height: 2rem;
 }
+.page-section .page-section-subheading {
+  font-size: 1rem;
+}
 @media (min-width: 992px) {
   .page-section .page-section-heading {
     font-size: 3rem;
     line-height: 2.5rem;
+  }
+  .page-section .page-section-subheading {
+  font-size: 1.25rem;
   }
 }
 
@@ -10160,6 +10166,7 @@ h3 {
     font-size: 1.5rem;
   }
 }
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
@@ -10172,7 +10179,6 @@ h3 {
   position: absolute;
   top: 0;
   left: 0;
-  transition: all 0.2s ease-in-out;
   opacity: 0;
   background-color: rgba(26, 188, 156, 0.9);
 }
