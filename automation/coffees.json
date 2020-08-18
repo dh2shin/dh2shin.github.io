@@ -1,308 +1,308 @@
 {
     "coffees": [
         {
-            "name": "GUDUBA MEDIUM",
+            "name": "Guduba Medium",
             "link": "https://store.georgehowellcoffee.com/coffees/guduba-medium.html",
-            "availability": true,
+            "availability": "True",
             "price": "$19.00",
-            "country": "ETHIOPIA",
-            "notes": "NECTARINE, HONEY, MILK CHOCOLATE"
+            "country": "Ethiopia",
+            "notes": "Nectarine, Honey, Milk Chocolate"
         },
         {
-            "name": "GUDUBA LIGHT",
+            "name": "Guduba Light",
             "link": "https://store.georgehowellcoffee.com/coffees/guduba-light.html",
-            "availability": true,
+            "availability": "True",
             "price": "$19.00",
-            "country": "ETHIOPIA",
-            "notes": "NECTARINE, BERGAMOT, HONEY"
+            "country": "Ethiopia",
+            "notes": "Nectarine, Bergamot, Honey"
         },
         {
-            "name": "KANZU",
+            "name": "Kanzu",
             "link": "https://store.georgehowellcoffee.com/coffees/kanzu-rwanda.html",
-            "availability": true,
+            "availability": "True",
             "price": "$19.50",
-            "country": "RWANDA",
-            "notes": "PLUM, ORANGE, POMEGRANATE"
+            "country": "Rwanda",
+            "notes": "Plum, Orange, Pomegranate"
         },
         {
-            "name": "LA MINITA",
+            "name": "La Minita",
             "link": "https://store.georgehowellcoffee.com/coffees/laminita.html",
-            "availability": true,
+            "availability": "True",
             "price": "$22.00",
-            "country": "COSTA RICA",
-            "notes": "ORANGE, MAPLE SYRUP, CHOCOLATE"
+            "country": "Costa Rica",
+            "notes": "Orange, Maple Syrup, Chocolate"
         },
         {
-            "name": "TARRAZU",
+            "name": "Tarrazu",
             "link": "https://store.georgehowellcoffee.com/coffees/tarrazu-costa-rica.html",
-            "availability": true,
+            "availability": "True",
             "price": "$14.00",
-            "country": "COSTA RICA",
-            "notes": "ALMOND NOUGAT, MILK CHOCOLATE, PEACH"
+            "country": "Costa Rica",
+            "notes": "Almond Nougat, Milk Chocolate, Peach"
         },
         {
-            "name": "TARRAZU ESPRESSO",
+            "name": "Tarrazu Espresso",
             "link": "https://store.georgehowellcoffee.com/coffees/espresso-tarrazu.html",
-            "availability": true,
+            "availability": "True",
             "price": "$14.25",
-            "country": "COSTA RICA",
-            "notes": "CHOCOLATE, CARAMEL, WALNUT"
+            "country": "Costa Rica",
+            "notes": "Chocolate, Caramel, Walnut"
         },
         {
-            "name": "TARRAZU FRENCH ROAST",
+            "name": "Tarrazu French Roast",
             "link": "https://store.georgehowellcoffee.com/coffees/tarrazu-french-roast.html",
-            "availability": true,
+            "availability": "True",
             "price": "$14.25",
-            "country": "COSTA RICA",
-            "notes": "DARK CARAMEL, COLA, WALNUT"
+            "country": "Costa Rica",
+            "notes": "Dark Caramel, Cola, Walnut"
         },
         {
-            "name": "TARRAZU VIENNA ROAST",
+            "name": "Tarrazu Vienna Roast",
             "link": "https://store.georgehowellcoffee.com/coffees/tarrazu-vienna-roast.html",
-            "availability": true,
+            "availability": "True",
             "price": "$14.00",
-            "country": "COSTA RICA",
-            "notes": "CARAMEL, DARK CHOCOLATE, WALNUT"
+            "country": "Costa Rica",
+            "notes": "Caramel, Dark Chocolate, Walnut"
         },
         {
-            "name": "MATALAPA",
+            "name": "Matalapa",
             "link": "https://store.georgehowellcoffee.com/coffees/matalapa-el-salvador.html",
-            "availability": true,
+            "availability": "True",
             "price": "$17.50",
-            "country": "EL SALVADOR",
-            "notes": "ORANGE ZEST, NOUGAT, LIME"
+            "country": "El Salvador",
+            "notes": "Orange Zest, Nougat, Lime"
         },
         {
-            "name": "MONTECARLOS MEDIUM",
+            "name": "Montecarlos Medium",
             "link": "https://store.georgehowellcoffee.com/coffees/montecarlos-medium.html",
-            "availability": true,
+            "availability": "True",
             "price": "$16.00",
-            "country": "EL SALVADOR",
-            "notes": "CHOCOLATE, NOUGAT, TANGERINE"
+            "country": "El Salvador",
+            "notes": "Chocolate, Nougat, Tangerine"
         },
         {
-            "name": "SMALL FARMS LOT ANTIGUA GUATEMALA",
+            "name": "Small Farms Lot Antigua Guatemala",
             "link": "https://store.georgehowellcoffee.com/coffees/small-farms-lot-antigua-guatemala.html",
-            "availability": true,
+            "availability": "True",
             "price": "$15.50",
-            "country": "GUATEMALA",
-            "notes": "CHOCOLATE, TANGERINE, ALMOND"
+            "country": "Guatemala",
+            "notes": "Chocolate, Tangerine, Almond"
         },
         {
-            "name": "LA ENCENADA",
+            "name": "La Encenada",
             "link": "https://store.georgehowellcoffee.com/coffees/la-encenada.html",
-            "availability": true,
+            "availability": "True",
             "price": "$18.50",
-            "country": "GUATEMALA",
-            "notes": "CITRUS, APPLE, DARK CHOCOLATE"
+            "country": "Guatemala",
+            "notes": "Fruit Punch, Brown Sugar, Cocoa"
         },
         {
-            "name": "LA SOLEDAD SAN JOSE",
+            "name": "La Encenada Medium",
+            "link": "https://store.georgehowellcoffee.com/coffees/la-encenada-medium.html",
+            "availability": "True",
+            "price": "$18.50",
+            "country": "Guatemala",
+            "notes": "Fruit Punch, Molasses, Chocolate"
+        },
+        {
+            "name": "La Soledad San Jose",
             "link": "https://store.georgehowellcoffee.com/coffees/la-soledad-guatemala.html",
-            "availability": true,
+            "availability": "True",
             "price": "$18.50",
-            "country": "GUATEMALA",
-            "notes": "NAVEL ORANGE, CHOCOLATE, ALMOND"
+            "country": "Guatemala",
+            "notes": "Navel Orange, Chocolate, Almond"
         },
         {
-            "name": "SAN PEDRO YOSOTATU MEDIUM",
+            "name": "San Pedro Yosotatu Medium",
             "link": "https://store.georgehowellcoffee.com/coffees/san-pedro-yosotatu-reserva-medium.html",
-            "availability": true,
+            "availability": "True",
             "price": "$22.00",
-            "country": "MEXICO",
-            "notes": "CITRUS, DRIED FIG, MILK CHOCOLATE"
+            "country": "Mexico",
+            "notes": "Citrus, Dried Fig, Milk Chocolate"
         },
         {
-            "name": "DATERRA",
+            "name": "Daterra",
             "link": "https://store.georgehowellcoffee.com/coffees/daterra.html",
-            "availability": true,
+            "availability": "True",
             "price": "$17.50",
-            "country": "BRAZIL",
-            "notes": "MILK CHOCOLATE, BLUEBERRY, VANILLA"
+            "country": "Brazil",
+            "notes": "Milk Chocolate, Blueberry, Vanilla"
         },
         {
-            "name": "DATERRA CALABRIA ESPRESSO",
+            "name": "Daterra Calabria Espresso",
             "link": "https://store.georgehowellcoffee.com/coffees/daterra-calabria-style-espresso.html",
-            "availability": true,
+            "availability": "True",
             "price": "$17.50",
-            "country": "BRAZIL",
-            "notes": "BITTERSWEET CHOCOLATE, WALNUT, CHERRY"
+            "country": "Brazil",
+            "notes": "Bittersweet Chocolate, Walnut, Cherry"
         },
         {
-            "name": "DATERRA ESPRESSO",
+            "name": "Daterra Espresso",
             "link": "https://store.georgehowellcoffee.com/coffees/daterra-south-italian-style-espresso.html",
-            "availability": true,
+            "availability": "True",
             "price": "$17.50",
-            "country": "BRAZIL",
-            "notes": "CHOCOLATE, BLUEBERRY, CARAMELIZED HAZELNUT"
+            "country": "Brazil",
+            "notes": "Chocolate, Blueberry, Caramelized Hazelnut"
         },
         {
-            "name": "FAMILIA QUIPO",
+            "name": "Familia Quipo",
             "link": "https://store.georgehowellcoffee.com/coffees/familia-quipo.html",
-            "availability": true,
-            "price": "$21.00",
-            "country": "COLOMBIA",
-            "notes": "PINEAPPLE, GREEN GRAPE, CHOCOLATE"
+            "availability": "False",
+            "price": "N/A",
+            "country": "Colombia",
+            "notes": "Pineapple, Green Grape, Chocolate"
         },
         {
-            "name": "SOLITARIO",
-            "link": "https://store.georgehowellcoffee.com/coffees/solitario.html",
-            "availability": true,
-            "price": "$19.50",
-            "country": "PERU",
-            "notes": "PINEAPPLE, NECTARINE, LEMONADE"
-        },
-        {
-            "name": "ALCHEMY ESPRESSO",
+            "name": "Alchemy Espresso",
             "link": "https://store.georgehowellcoffee.com/coffees/alchemy-espresso.html",
-            "availability": true,
+            "availability": "True",
             "price": "$15.00",
-            "country": "ESPRESSO BLEND",
-            "notes": "CHOCOLATE, ALMOND, CHERRY"
+            "country": "Eespresso Blend",
+            "notes": "Chocolate, Almond, Cherry"
         },
         {
-            "name": "LA ESMERALDA GESHA BLEND",
+            "name": "La Esmeralda Gesha Blend",
             "link": "https://store.georgehowellcoffee.com/coffees/la-esmeralda-blend.html",
-            "availability": false,
+            "availability": "False",
             "price": "N/A",
-            "country": "PANAMA",
-            "notes": "JASMINE | PEACH | GREEN GRAPE"
+            "country": "Panama",
+            "notes": "Jasmine | Peach | Green Grape"
         },
         {
-            "name": "DUROMINA",
+            "name": "Duromina",
             "link": "https://store.georgehowellcoffee.com/coffees/duromina.html",
-            "availability": false,
+            "availability": "False",
             "price": "N/A",
-            "country": "ETHIOPIA",
-            "notes": "EARL GREY TEA, NECTARINE, LAVENDER"
+            "country": "Ethiopia",
+            "notes": "Earl Grey Tea, Nectarine, Lavender"
         },
         {
-            "name": "KARATU AA OT18",
+            "name": "Karatu Aa Ot18",
             "link": "https://store.georgehowellcoffee.com/coffees/karatu-ot18-kiambu-kenya.html",
-            "availability": false,
+            "availability": "False",
             "price": "N/A",
-            "country": "KENYA",
-            "notes": "PLUM, BLACKBERRY AND CANDIED CITRUS"
+            "country": "Kenya",
+            "notes": "Plum, Blackberry And Candied Citrus"
         },
         {
-            "name": "LA SOLEDAD ANA CAFE",
+            "name": "La Soledad Ana Cafe",
             "link": "https://store.georgehowellcoffee.com/coffees/la-soledad-ana-cafe.html",
-            "availability": false,
+            "availability": "False",
             "price": "N/A",
-            "country": "GUATEMALA",
-            "notes": "GRAPEFRUIT, CHOCOLATE, CHERRY"
+            "country": "Guatemala",
+            "notes": "Grapefruit, Chocolate, Cherry"
         },
         {
-            "name": "ALMURRI FAMILY",
+            "name": "Almurri Family",
             "link": "https://store.georgehowellcoffee.com/coffees/almurri-family-e14.html",
-            "availability": true,
-            "price": "$70.00",
-            "country": "YEMEN",
-            "notes": "STRAWBERRY, HONEY, CLOVE"
+            "availability": "False",
+            "price": "N/A",
+            "country": "Yemen",
+            "notes": "Strawberry, Honey, Clove"
         },
         {
-            "name": "MUHAMMAD HADI JE-15",
+            "name": "Muhammad Hadi Je-15",
             "link": "https://store.georgehowellcoffee.com/coffees/muhammad-hadi-je-15.html",
-            "availability": false,
+            "availability": "False",
             "price": "N/A",
-            "country": "YEMEN",
-            "notes": "FIG, RAISIN, CHERRY"
+            "country": "Yemen",
+            "notes": "Fig, Raisin, Cherry"
         },
         {
-            "name": "MAMUTO AB",
+            "name": "Mamuto Ab",
             "link": "https://store.georgehowellcoffee.com/coffees/mamuto-ab-kenya.html",
-            "availability": false,
+            "availability": "False",
             "price": "N/A",
-            "country": "KENYA",
-            "notes": "RIPE BLACKBERRY, CHERRY, PLUM"
+            "country": "Kenya",
+            "notes": "Ripe Blackberry, Cherry, Plum"
         },
         {
-            "name": "EL INJERTO GESHA",
+            "name": "El Injerto Gesha",
             "link": "https://store.georgehowellcoffee.com/coffees/el-injerto-gesha.html",
-            "availability": false,
+            "availability": "False",
             "price": "N/A",
-            "country": "GUATEMALA",
-            "notes": "BERGAMOT, LEMONGRASS, JASMINE"
+            "country": "Guatemala",
+            "notes": "Bergamot, Lemongrass, Jasmine"
         },
         {
-            "name": "LA PROVIDENCIA PLA 12688",
+            "name": "La Providencia Pla 12688",
             "link": "https://store.georgehowellcoffee.com/coffees/la-providencia-pla-12688.html",
-            "availability": false,
+            "availability": "False",
             "price": "N/A",
-            "country": "COLOMBIA",
-            "notes": "MEYER LEMON, HONEY, RED GRAPE"
+            "country": "Colombia",
+            "notes": "Meyer Lemon, Honey, Red Grape"
         },
         {
-            "name": "LA VALENTINA",
+            "name": "La Valentina",
             "link": "https://store.georgehowellcoffee.com/coffees/la-valentina.html",
-            "availability": false,
+            "availability": "False",
             "price": "N/A",
-            "country": "PANAMA",
-            "notes": "JASMINE, BERGAMOT, PEACH"
+            "country": "Panama",
+            "notes": "Jasmine, Bergamot, Peach"
         },
         {
-            "name": "EL INJERTO RESERVA DEL COMENDADOR",
+            "name": "El Injerto Reserva Del Comendador",
             "link": "https://store.georgehowellcoffee.com/coffees/el-injerto-pacamara.html",
-            "availability": false,
+            "availability": "False",
             "price": "N/A",
-            "country": "GUATEMALA",
-            "notes": "BUTTERSCOTCH, PINEAPPLE, HAZELNUT"
+            "country": "Guatemala",
+            "notes": "Butterscotch, Pineapple, Hazelnut"
         },
         {
-            "name": "PIEDRAS DE AFILAR GESHA",
+            "name": "Piedras De Afilar Gesha",
             "link": "https://store.georgehowellcoffee.com/coffees/piedras-de-afilar-gesha.html",
-            "availability": false,
+            "availability": "False",
             "price": "N/A",
-            "country": "COLOMBIA",
-            "notes": "NECTARINE, LIME, PASSIONFRUIT"
+            "country": "Colombia",
+            "notes": "Nectarine, Lime, Passionfruit"
         },
         {
-            "name": "LA ESMERALDA NORIA SAN JOSE",
+            "name": "La Esmeralda Noria San Jose",
             "link": "https://store.georgehowellcoffee.com/coffees/la-esmeralda-noria-san-jose-panama.html",
-            "availability": false,
+            "availability": "False",
             "price": "N/A",
-            "country": "PANAMA",
-            "notes": "PEACH, RASPBERRY, CINNAMON"
+            "country": "Panama",
+            "notes": "Peach, Raspberry, Cinnamon"
         },
         {
-            "name": "ALTO LAGUNILLAS",
+            "name": "Alto Lagunillas",
             "link": "https://store.georgehowellcoffee.com/coffees/alto-lagunillas-peru.html",
-            "availability": false,
+            "availability": "False",
             "price": "N/A",
-            "country": "PERU",
-            "notes": "NECTARINE, LEMONGRASS, WHITE GRAPE"
+            "country": "Peru",
+            "notes": "Nectarine, Lemongrass, White Grape"
         },
         {
-            "name": "DECAF LOS IDOLOS",
+            "name": "Decaf Los Idolos",
             "link": "https://store.georgehowellcoffee.com/coffees/los-idolos-colombia.html",
-            "availability": true,
+            "availability": "True",
             "price": "$18.00",
-            "country": "COLOMBIA",
-            "notes": "KIWI, BLUEBERRY, LIGHT CARAMEL"
+            "country": "Colombia",
+            "notes": "Kiwi, Blueberry, Light Caramel"
         },
         {
-            "name": "DECAF COLOMBIA",
+            "name": "Decaf Colombia",
             "link": "https://store.georgehowellcoffee.com/coffees/colombia-decaf.html",
-            "availability": true,
+            "availability": "True",
             "price": "$14.50",
-            "country": "COLOMBIA",
-            "notes": "CHERRY, CHOCOLATE, RAISIN, LIME"
+            "country": "Colombia",
+            "notes": "Cherry, Chocolate, Raisin, Lime"
         },
         {
-            "name": "DECAF ESPRESSO",
+            "name": "Decaf Espresso",
             "link": "https://store.georgehowellcoffee.com/coffees/decaf-espresso-north-italian.html",
-            "availability": true,
+            "availability": "True",
             "price": "$14.50",
-            "country": "COLOMBIA",
-            "notes": "CHERRY, CHOCOLATE, RAISIN, MAPLE"
+            "country": "Colombia",
+            "notes": "Cherry, Chocolate, Raisin, Maple"
         },
         {
-            "name": "GITWE HILL",
+            "name": "Gitwe Hill",
             "link": "https://store.georgehowellcoffee.com/coffees/gitwe-hill-burundi_temp.html",
-            "availability": true,
+            "availability": "True",
             "price": "$20.00",
-            "country": "BURUNDI",
-            "notes": "BROWN SUGAR, CHERRY, BLACKBERRY"
+            "country": "Burundi",
+            "notes": "Brown Sugar, Cherry, Blackberry"
         }
     ]
 }
