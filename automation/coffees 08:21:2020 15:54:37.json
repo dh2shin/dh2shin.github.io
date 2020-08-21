@@ -279,15 +279,7 @@
             "price": "$14.50",
             "country": "Colombia",
             "notes": "Cherry, Chocolate, Raisin, Maple"
-        },
-        {
-            "name": "Gitwe Hill",
-            "link": "https://store.georgehowellcoffee.com/coffees/gitwe-hill-burundi_temp.html",
-            "availability": "O",
-            "price": "$20.00",
-            "country": "Burundi",
-            "notes": "Brown Sugar, Cherry, Blackberry"
         }
     ],
-    "time": "08/21/2020 15:54:37"
+    "time": "08/21/2020 15:45:55"
 }
