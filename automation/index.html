@@ -92,8 +92,8 @@
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <p class="page-section-subheading text-center text-secondary mx-auto" id="updates-header"></p>
-                <table class="table table-striped text-white">
+                <p class="page-section-subheading text-center text-white mx-auto" id="updates-header"></p>
+                <table class="table text-white">
                     <thead>
                         <tr>
                             <th scope="col">Name</th>
@@ -229,7 +229,8 @@
                 var cell5 = row.insertCell(4);
                 var linked = document.createElement('a');
                 linked.setAttribute('href', data.coffees[i].link);
-                linked.setAttribute('innerText', data.coffees[i].name);
+                var linkText = document.createTextNode(data.coffees[i].name);
+                linked.appendChild(linkText);
                 cell1.appendChild(linked);
                 cell2.innerHTML = data.coffees[i].country;
                 cell3.innerHTML = data.coffees[i].price;
@@ -250,7 +251,8 @@
                 var cell5 = row.insertCell(4);
                 var linked = document.createElement('a');
                 linked.setAttribute('href', data.coffees[i].link);
-                linked.setAttribute('innerText', data.coffees[i].name);
+                var linkText = document.createTextNode(data.coffees[i].name);
+                linked.appendChild(linkText);
                 cell1.appendChild(linked);
                 cell2.innerHTML = data.coffees[i].country;
                 cell3.innerHTML = data.coffees[i].price;
