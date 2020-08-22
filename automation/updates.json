@@ -1,13 +1,13 @@
 {
     "coffees": [
         {
-            "name": "Gitwe Hill",
-            "link": "https://store.georgehowellcoffee.com/coffees/gitwe-hill-burundi_temp.html",
-            "availability": "Brand New Coffee Gitwe Hill in stock at $20.00!",
-            "price": "$20.00",
-            "country": "Burundi",
-            "notes": "Brown Sugar, Cherry, Blackberry"
+            "name": "El Injerto Gesha",
+            "link": "https://store.georgehowellcoffee.com/coffees/el-injerto-gesha.html",
+            "availability": "Now Out of Stock!",
+            "price": "$65.00 --> N/A",
+            "country": "Guatemala",
+            "notes": "Bergamot, Lemongrass, Jasmine"
         }
     ],
-    "time": "08/21/2020 15:54:37"
+    "time": "08/22/2020 19:30:05"
 }

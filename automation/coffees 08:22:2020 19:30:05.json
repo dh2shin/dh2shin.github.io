@@ -203,8 +203,8 @@
         {
             "name": "El Injerto Gesha",
             "link": "https://store.georgehowellcoffee.com/coffees/el-injerto-gesha.html",
-            "availability": "X",
-            "price": "N/A",
+            "availability": "O",
+            "price": "$65.00",
             "country": "Guatemala",
             "notes": "Bergamot, Lemongrass, Jasmine"
         },
@@ -289,5 +289,5 @@
             "notes": "Brown Sugar, Cherry, Blackberry"
         }
     ],
-    "time": "08/22/2020 19:30:05"
+    "time": "08/21/2020 15:54:37"
 }
