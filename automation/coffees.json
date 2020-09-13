@@ -89,6 +89,14 @@
             "notes": "Chocolate, Tangerine, Almond"
         },
         {
+            "name": "La Soledad San Jose Gesha",
+            "link": "https://store.georgehowellcoffee.com/coffees/la-soledad-san-jose-gesha.html",
+            "availability": "X",
+            "price": "N/A",
+            "country": "Guatemala",
+            "notes": "Peach, Bergamot, Cherry"
+        },
+        {
             "name": "La Encenada",
             "link": "https://store.georgehowellcoffee.com/coffees/la-encenada.html",
             "availability": "O",
@@ -155,26 +163,18 @@
         {
             "name": "Duromina",
             "link": "https://store.georgehowellcoffee.com/coffees/duromina.html",
-            "availability": "O",
-            "price": "$24.00",
+            "availability": "X",
+            "price": "N/A",
             "country": "Ethiopia",
             "notes": "Earl Grey Tea, Nectarine, Lavender"
         },
         {
             "name": "Karatu Aa Ot18",
             "link": "https://store.georgehowellcoffee.com/coffees/karatu-ot18-kiambu-kenya.html",
-            "availability": "O",
-            "price": "$19.50",
-            "country": "Kenya",
-            "notes": "Plum, Blackberry And Candied Citrus"
-        },
-        {
-            "name": "La Soledad Ana Cafe",
-            "link": "https://store.georgehowellcoffee.com/coffees/la-soledad-ana-cafe.html",
             "availability": "X",
             "price": "N/A",
-            "country": "Guatemala",
-            "notes": "Grapefruit, Chocolate, Cherry"
+            "country": "Kenya",
+            "notes": "Plum, Blackberry And Candied Citrus"
         },
         {
             "name": "Almurri Family",
@@ -187,8 +187,8 @@
         {
             "name": "Muhammad Hadi Je-15",
             "link": "https://store.georgehowellcoffee.com/coffees/muhammad-hadi-je-15.html",
-            "availability": "X",
-            "price": "N/A",
+            "availability": "O",
+            "price": "$49.00",
             "country": "Yemen",
             "notes": "Fig, Raisin, Cherry"
         },
@@ -251,8 +251,8 @@
         {
             "name": "Alto Lagunillas",
             "link": "https://store.georgehowellcoffee.com/coffees/alto-lagunillas-peru.html",
-            "availability": "X",
-            "price": "N/A",
+            "availability": "O",
+            "price": "$22.00",
             "country": "Peru",
             "notes": "Nectarine, Lemongrass, White Grape"
         },
@@ -289,5 +289,5 @@
             "notes": "Brown Sugar, Cherry, Blackberry"
         }
     ],
-    "time": "08/22/2020 22:15:41"
+    "time": "09/13/2020 18:27:17"
 }
