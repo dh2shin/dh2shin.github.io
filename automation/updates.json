@@ -1,45 +1,13 @@
 {
     "coffees": [
         {
-            "name": "La Soledad San Jose Gesha",
-            "link": "https://store.georgehowellcoffee.com/coffees/la-soledad-san-jose-gesha.html",
-            "availability": "Brand New Coffee La Soledad San Jose Gesha out of stock. Check back later!",
+            "name": "Nothing New!",
+            "link": "https://store.georgehowellcoffee.com/coffees/",
+            "availability": "N/A",
             "price": "N/A",
-            "country": "Guatemala",
-            "notes": "Peach, Bergamot, Cherry"
-        },
-        {
-            "name": "Duromina",
-            "link": "https://store.georgehowellcoffee.com/coffees/duromina.html",
-            "availability": "Now Out of Stock!",
-            "price": "$24.00 --> N/A",
-            "country": "Ethiopia",
-            "notes": "Earl Grey Tea, Nectarine, Lavender"
-        },
-        {
-            "name": "Karatu Aa Ot18",
-            "link": "https://store.georgehowellcoffee.com/coffees/karatu-ot18-kiambu-kenya.html",
-            "availability": "Now Out of Stock!",
-            "price": "$19.50 --> N/A",
-            "country": "Kenya",
-            "notes": "Plum, Blackberry And Candied Citrus"
-        },
-        {
-            "name": "Muhammad Hadi Je-15",
-            "link": "https://store.georgehowellcoffee.com/coffees/muhammad-hadi-je-15.html",
-            "availability": "Now In Stock!",
-            "price": "N/A --> $49.00",
-            "country": "Yemen",
-            "notes": "Fig, Raisin, Cherry"
-        },
-        {
-            "name": "Alto Lagunillas",
-            "link": "https://store.georgehowellcoffee.com/coffees/alto-lagunillas-peru.html",
-            "availability": "Now In Stock!",
-            "price": "N/A --> $22.00",
-            "country": "Peru",
-            "notes": "Nectarine, Lemongrass, White Grape"
+            "country": "N/A",
+            "notes": "N/A"
         }
     ],
-    "time": "09/13/2020 18:27:17"
+    "time": "09/13/2020 18:34:12"
 }

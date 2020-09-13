@@ -230,6 +230,7 @@
                 var cell5 = row.insertCell(4);
                 var linked = document.createElement('a');
                 linked.setAttribute('href', data.coffees[i].link);
+                linked.setAttribute('style', 'color:#ffffff');
                 var linkText = document.createTextNode(data.coffees[i].name);
                 linked.appendChild(linkText);
                 cell1.appendChild(linked);
