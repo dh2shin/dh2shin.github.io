@@ -107,8 +107,8 @@
         {
             "name": "La Encenada Medium",
             "link": "https://store.georgehowellcoffee.com/coffees/la-encenada-medium.html",
-            "availability": "O",
-            "price": "$18.50",
+            "availability": "X",
+            "price": "N/A",
             "country": "Guatemala",
             "notes": "Fruit Punch, Molasses, Chocolate"
         },
@@ -185,14 +185,6 @@
             "notes": "Strawberry, Honey, Clove"
         },
         {
-            "name": "Muhammad Hadi Je-15",
-            "link": "https://store.georgehowellcoffee.com/coffees/muhammad-hadi-je-15.html",
-            "availability": "O",
-            "price": "$49.00",
-            "country": "Yemen",
-            "notes": "Fig, Raisin, Cherry"
-        },
-        {
             "name": "Mamuto Ab",
             "link": "https://store.georgehowellcoffee.com/coffees/mamuto-ab-kenya.html",
             "availability": "X",
@@ -251,21 +243,21 @@
         {
             "name": "Alto Lagunillas",
             "link": "https://store.georgehowellcoffee.com/coffees/alto-lagunillas-peru.html",
-            "availability": "O",
-            "price": "$22.00",
+            "availability": "X",
+            "price": "N/A",
             "country": "Peru",
             "notes": "Nectarine, Lemongrass, White Grape"
         },
         {
-            "name": "Decaf Los Idolos",
+            "name": "Decaf Colombia Los Idolos",
             "link": "https://store.georgehowellcoffee.com/coffees/los-idolos-colombia.html",
-            "availability": "O",
-            "price": "$18.00",
+            "availability": "X",
+            "price": "N/A",
             "country": "Colombia",
             "notes": "Kiwi, Blueberry, Light Caramel"
         },
         {
-            "name": "Decaf Colombia",
+            "name": "Decaf Colombia Jard\u00edn",
             "link": "https://store.georgehowellcoffee.com/coffees/colombia-decaf.html",
             "availability": "O",
             "price": "$14.50",
@@ -273,21 +265,13 @@
             "notes": "Cherry, Chocolate, Raisin, Lime"
         },
         {
-            "name": "Decaf Espresso",
+            "name": "Decaf Colombia Jard\u00edn Espresso",
             "link": "https://store.georgehowellcoffee.com/coffees/decaf-espresso-north-italian.html",
             "availability": "O",
             "price": "$14.50",
             "country": "Colombia",
             "notes": "Cherry, Chocolate, Raisin, Maple"
-        },
-        {
-            "name": "Gitwe Hill",
-            "link": "https://store.georgehowellcoffee.com/coffees/gitwe-hill-burundi_temp.html",
-            "availability": "O",
-            "price": "$20.00",
-            "country": "Burundi",
-            "notes": "Brown Sugar, Cherry, Blackberry"
         }
     ],
-    "time": "09/13/2020 18:35:17"
+    "time": "09/30/2020 16:59:21"
 }

@@ -1,13 +1,45 @@
 {
     "coffees": [
         {
-            "name": "Nothing New!",
-            "link": "https://store.georgehowellcoffee.com/coffees/",
-            "availability": "N/A",
+            "name": "Decaf Colombia Jard\u00edn Espresso",
+            "link": "https://store.georgehowellcoffee.com/coffees/decaf-espresso-north-italian.html",
+            "availability": "Brand New Coffee Decaf Colombia Jard\u00edn Espresso in stock at $14.50!",
+            "price": "$14.50",
+            "country": "Colombia",
+            "notes": "Cherry, Chocolate, Raisin, Maple"
+        },
+        {
+            "name": "Decaf Colombia Jard\u00edn",
+            "link": "https://store.georgehowellcoffee.com/coffees/colombia-decaf.html",
+            "availability": "Brand New Coffee Decaf Colombia Jard\u00edn in stock at $14.50!",
+            "price": "$14.50",
+            "country": "Colombia",
+            "notes": "Cherry, Chocolate, Raisin, Lime"
+        },
+        {
+            "name": "Decaf Colombia Los Idolos",
+            "link": "https://store.georgehowellcoffee.com/coffees/los-idolos-colombia.html",
+            "availability": "Brand New Coffee Decaf Colombia Los Idolos out of stock. Check back later!",
             "price": "N/A",
-            "country": "N/A",
-            "notes": "N/A"
+            "country": "Colombia",
+            "notes": "Kiwi, Blueberry, Light Caramel"
+        },
+        {
+            "name": "La Encenada Medium",
+            "link": "https://store.georgehowellcoffee.com/coffees/la-encenada-medium.html",
+            "availability": "Now Out of Stock!",
+            "price": "$18.50 --> N/A",
+            "country": "Guatemala",
+            "notes": "Fruit Punch, Molasses, Chocolate"
+        },
+        {
+            "name": "Alto Lagunillas",
+            "link": "https://store.georgehowellcoffee.com/coffees/alto-lagunillas-peru.html",
+            "availability": "Now Out of Stock!",
+            "price": "$22.00 --> N/A",
+            "country": "Peru",
+            "notes": "Nectarine, Lemongrass, White Grape"
         }
     ],
-    "time": "09/13/2020 18:35:17"
+    "time": "09/30/2020 16:59:21"
 }
