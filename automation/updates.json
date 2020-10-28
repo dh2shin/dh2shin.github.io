@@ -1,13 +1,69 @@
 {
     "coffees": [
         {
-            "name": "Nothing New!",
-            "link": "https://store.georgehowellcoffee.com/coffees/",
-            "availability": "N/A",
+            "name": "Subscription Choice",
+            "link": "https://store.georgehowellcoffee.com/coffees/subscription-choice.html",
+            "availability": "Brand New Coffee Subscription Choice out of stock. Check back later!",
             "price": "N/A",
-            "country": "N/A",
-            "notes": "N/A"
+            "country": "Espresso Blend",
+            "notes": ""
+        },
+        {
+            "name": "Kanzu Medium",
+            "link": "https://store.georgehowellcoffee.com/coffees/kanzu-medium-rwanda.html",
+            "availability": "Brand New Coffee Kanzu Medium in stock at $19.50!",
+            "price": "$19.50",
+            "country": "Rwanda",
+            "notes": "Plum, Milk Chocolate, Orange"
+        },
+        {
+            "name": "Yukro Co-Op",
+            "link": "https://store.georgehowellcoffee.com/coffees/yukro-cooperative-ethiopia.html",
+            "availability": "Brand New Coffee Yukro Co-Op out of stock. Check back later!",
+            "price": "N/A",
+            "country": "Ethiopia",
+            "notes": "Lilac, Peach, Raw Sugar"
+        },
+        {
+            "name": "La Encenada Medium",
+            "link": "https://store.georgehowellcoffee.com/coffees/la-encenada-medium.html",
+            "availability": "Now In Stock!",
+            "price": "N/A --> $18.50",
+            "country": "Guatemala",
+            "notes": "Fruit Punch, Molasses, Chocolate"
+        },
+        {
+            "name": "Karatu Aa Ot18",
+            "link": "https://store.georgehowellcoffee.com/coffees/karatu-ot18-kiambu-kenya.html",
+            "availability": "Now In Stock!",
+            "price": "N/A --> $19.50",
+            "country": "Kenya",
+            "notes": "Plum, Blackberry And Candied Citrus"
+        },
+        {
+            "name": "Piedras De Afilar Gesha",
+            "link": "https://store.georgehowellcoffee.com/coffees/piedras-de-afilar-gesha.html",
+            "availability": "Now In Stock!",
+            "price": "N/A --> $29.00",
+            "country": "Colombia",
+            "notes": "Nectarine, Lime, Passionfruit"
+        },
+        {
+            "name": "Alto Lagunillas",
+            "link": "https://store.georgehowellcoffee.com/coffees/alto-lagunillas-peru.html",
+            "availability": "Now In Stock!",
+            "price": "N/A --> $22.00",
+            "country": "Peru",
+            "notes": "Nectarine, Lemongrass, White Grape"
+        },
+        {
+            "name": "Decaf Colombia Los Idolos",
+            "link": "https://store.georgehowellcoffee.com/coffees/los-idolos-colombia.html",
+            "availability": "Now In Stock!",
+            "price": "N/A --> $18.00",
+            "country": "Colombia",
+            "notes": "Kiwi, Blueberry, Light Caramel"
         }
     ],
-    "time": "09/30/2020 17:01:53"
+    "time": "10/28/2020 15:51:48"
 }
