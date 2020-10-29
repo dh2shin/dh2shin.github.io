@@ -195,8 +195,8 @@
         {
             "name": "Karatu Aa Ot18",
             "link": "https://store.georgehowellcoffee.com/coffees/karatu-ot18-kiambu-kenya.html",
-            "availability": "O",
-            "price": "$19.50",
+            "availability": "X",
+            "price": "N/A",
             "country": "Kenya",
             "notes": "Plum, Blackberry And Candied Citrus"
         },
@@ -207,6 +207,14 @@
             "price": "N/A",
             "country": "Yemen",
             "notes": "Strawberry, Honey, Clove"
+        },
+        {
+            "name": "Muhammad Hadi Je-15",
+            "link": "https://store.georgehowellcoffee.com/coffees/muhammad-hadi-je-15.html",
+            "availability": "X",
+            "price": "N/A",
+            "country": "Yemen",
+            "notes": "Fig, Raisin, Cherry"
         },
         {
             "name": "Mamuto Ab",
@@ -289,5 +297,5 @@
             "notes": "Cherry, Chocolate, Raisin, Maple"
         }
     ],
-    "time": "10/28/2020 15:51:48"
+    "time": "10/29/2020 14:21:33"
 }
